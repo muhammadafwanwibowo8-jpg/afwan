@@ -3,19 +3,19 @@ script.js /* ==========================================
 ========================================== */
 
 // GANTI 2 BAGIAN INI DENGAN DATA SUPABASE KAMU
-const SUPABASE_URL = "MASUKKAN_SUPABASE_URL_KAMU";
-const SUPABASE_ANON_KEY = "MASUKKAN_SUPABASE_ANON_KEY_KAMU";
+const SUPABASE_URL = "https://mwxhqmlfusdzezaebiit.supabase.co/rest/v1/";
+const SUPABASE_ANON_KEY = "sb_publishable_ZcuPqDm7NYat0AZSAJIZtg_RNxuz-4K";
 
 let supabaseClient = null;
 
 if (
-    SUPABASE_URL !== "MASUKKAN_SUPABASE_URL_KAMU" &&
-    SUPABASE_ANON_KEY !== "MASUKKAN_SUPABASE_ANON_KEY_KAMU" &&
+    SUPABASE_URL !== "https://mwxhqmlfusdzezaebiit.supabase.co/rest/v1/" &&
+    SUPABASE_ANON_KEY !== "sb_publishable_ZcuPqDm7NYat0AZSAJIZtg_RNxuz-4K" &&
     window.supabase
 ) {
     supabaseClient = window.supabase.createClient(
-        SUPABASE_URL,
-        SUPABASE_ANON_KEY
+        https://mwxhqmlfusdzezaebiit.supabase.co/rest/v1/,
+        sb_publishable_ZcuPqDm7NYat0AZSAJIZtg_RNxuz-4K
     );
 }
 
